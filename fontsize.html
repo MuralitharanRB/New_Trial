@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Font Size</title>
+<script>
+ function changesize(n){
+ document.getElementById("mypara").style.fontSize = n + "px";
+ }
+</script> 
+</head>
+<body>
+<h1>Change Size</h1>
+<p id="mypara">Increase the font size as per input</p>
+<input type="radio" name="size" onclick="changesize(25)">25
+<input type="radio" name="size" onclick="changesize(50)">50
+<input type="radio" name="size" onclick="changesize(100)">100
+</body>
+</html>
+
